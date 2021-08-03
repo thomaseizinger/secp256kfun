@@ -4,7 +4,6 @@
 #![allow(non_snake_case)]
 #![deny(missing_docs, warnings)]
 #![doc = include_str!("../README.md")]
-
 #[cfg(all(feature = "alloc", not(feature = "std")))]
 #[allow(unused_imports)]
 #[macro_use]
